@@ -57,5 +57,11 @@
     "stylelint-config-prettier": "^4.0.0",
     "stylelint-config-recess-order": "^2.0.0",
     "stylelint-config-sass-guidelines": "^5.0.0"
+  },
+  "dependencies": {
+    "lodash.map": "^4.6.0",
+    "longest": "^2.0.1",
+    "right-pad": "^1.0.1",
+    "word-wrap": "^1.2.3"
   }
 }
