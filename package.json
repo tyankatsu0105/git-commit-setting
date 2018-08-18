@@ -1,9 +1,7 @@
 {
   "name": "git-format-test",
   "version": "1.0.0",
-  "main": "index.js",
   "repository": "https://github.com/tyankatsu0105/git-format-test.git",
-  "author": "山本 勝也 <frips.rysilufupe@gmail.com>",
   "license": "MIT",
   "private": true,
   "scripts": {
