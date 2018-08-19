@@ -1,3 +1,9 @@
+#### 2.0.1 (2018-08-19)
+
+##### Bug Fixes
+
+*  :bug: プロジェクト名の違いを修正 ([e54f2b25](https://github.com/tyankatsu0105/git-commit-setting/commit/e54f2b256ade3bd325abd534103717c12e0d1d13))
+
 ## 2.0.0 (2018-08-19)
 
 ##### New Features
