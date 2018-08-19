@@ -43,6 +43,14 @@
     "revert": {
       "description": "以前のコミットに復帰",
       "title": "復帰"
+    },
+    "breaking": {
+      "description": "互換性のない破壊的変更を伴う",
+      "title": "破壊的変更"
+    },
+    "other": {
+      "description": "上記コマンド以外",
+      "title": "上記コマンド以外"
     }
   }
 }
