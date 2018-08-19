@@ -1,3 +1,9 @@
+### 2.1.0 (2018-08-19)
+
+##### Documentation Changes
+
+* **README.md:**  :memo: 説明を大幅に加筆した ([441ab014](https://github.com/tyankatsu0105/git-commit-setting/commit/441ab014fae643dbb69b84e40967824d49784268))
+
 #### 2.0.1 (2018-08-19)
 
 ##### Bug Fixes
