@@ -1,11 +1,19 @@
 {
   "name": "git-format-test",
   "version": "1.0.0",
-  "repository": "https://github.com/tyankatsu0105/git-format-test.git",
   "license": "MIT",
   "private": true,
+  "config": {
+    "commitizen": {
+      "path": "./cz-custom"
+    },
+    "changelog": "https://github.com/tyankatsu0105/git-format-test"
+  },
   "scripts": {
     "commit": "git-cz",
+    "release:major": "changelog -M -u $npm_package_config_changelog && git add CHANGELOG.md && git commit -m 'updated CHANGELOG.md' && npm version major && git push origin && git push origin --tags",
+    "release:minor": "changelog -m -u $npm_package_config_changelog && git add CHANGELOG.md && git commit -m 'updated CHANGELOG.md' && npm version minor && git push origin && git push origin --tags",
+    "release:patch": "changelog -p -u $npm_package_config_changelog && git add CHANGELOG.md && git commit -m 'updated CHANGELOG.md' && npm version patch && git push origin && git push origin --tags",
     "precommit": "lint-staged",
     "lint:style": "stylelint **/*.scss --fix --cache --cache-location '.stylelintcache'",
     "prettier:style": "prettier --write **/*.scss",
@@ -35,11 +43,6 @@
       "cz-custom/**/*"
     ]
   },
-  "config": {
-    "commitizen": {
-      "path": "./cz-custom"
-    }
-  },
   "devDependencies": {
     "commitizen": "^2.10.1",
     "eslint": "^5.4.0",
@@ -49,6 +52,7 @@
     "eslint-plugin-jsx-a11y": "^6.1.1",
     "eslint-plugin-prettier": "^2.6.2",
     "eslint-plugin-react": "^7.11.1",
+    "generate-changelog": "^1.7.1",
     "lint-staged": "^7.2.2",
     "npm-run-all": "^4.1.3",
     "prettier": "^1.14.2",
