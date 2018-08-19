@@ -1,5 +1,5 @@
 {
-  "name": "git-format-test",
+  "name": "git-commit-setting",
   "version": "2.0.0",
   "license": "MIT",
   "private": true,
@@ -7,7 +7,7 @@
     "commitizen": {
       "path": "./cz-custom"
     },
-    "changelog": "https://github.com/tyankatsu0105/git-format-test"
+    "changelog": "https://github.com/tyankatsu0105/git-commit-setting"
   },
   "scripts": {
     "commit": "git-cz",
