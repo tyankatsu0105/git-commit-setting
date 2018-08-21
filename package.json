@@ -12,14 +12,18 @@
   "scripts": {
     "cmt": "git-cz",
     "precmt": "lint-staged",
+    "lint-prettier": "run-s lint:script format:style prettier:md",
     "release:major": "changelog -M -u $npm_package_config_changelog && git add CHANGELOG.md && git commit --no-verify -m 'updated CHANGELOG.md' && npm version major && git push origin && git push origin --tags",
     "release:minor": "changelog -m -u $npm_package_config_changelog && git add CHANGELOG.md && git commit --no-verify -m 'updated CHANGELOG.md' && npm version minor && git push origin && git push origin --tags",
     "release:patch": "changelog -p -u $npm_package_config_changelog && git add CHANGELOG.md && git commit --no-verify -m 'updated CHANGELOG.md' && npm version patch && git push origin && git push origin --tags",
     "lint:style": "stylelint **/*.scss --fix --cache --cache-location '.stylelintcache'",
     "prettier:style": "prettier --write **/*.scss",
     "format:style": "run-s prettier:style lint:style",
-    "lint:script": "eslint --fix",
-    "prettier:md": "prettier --write"
+    "lint:script": "eslint --fix **/*.js",
+    "prettier:md": "prettier --write ./README.md",
+    "ci:eslint": "eslint **/*.js",
+    "ci:stylelint": "eslint **/*.scss",
+    "ci:commitlint": "commitlint-circle"
   },
   "husky": {
     "hooks": {

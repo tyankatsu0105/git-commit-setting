@@ -34,9 +34,13 @@ jobs:
           key: v1-dependencies-{{ checksum "package.json" }}
 
       - run:
-          name: run lint-staged
-          command: yarn lint-staged
+          name: run eslint
+          command: yarn ci:eslint
+          
+      - run:
+          name: run stylelint
+          command: yarn ci:stylelint
 
       - run:
           name: run commitlint
-          command: yarn commitlint-circle
+          command: yarn ci:commitlint
