@@ -35,7 +35,7 @@ jobs:
         
       # run tests!
       - run:
-          name: Test echo
-          command: echo 'hello CircleCI'
+          name: run commitlint
+          command: yarn commitlint-circle
 
 
