@@ -1,3 +1,13 @@
+### 2.2.0 (2018-08-21)
+
+##### New Features
+
+*  :tada: commitlintを追加 ([9b6cddd2](https://github.com/tyankatsu0105/git-commit-setting/commit/9b6cddd27b7492f11fddc0afe3d4fb549a1a5b82))
+
+##### Bug Fixes
+
+*  :+1: commitlintがgenerate-changelogに反応しないように変更 ([66357c93](https://github.com/tyankatsu0105/git-commit-setting/commit/66357c937a9d687473a2a0f314a7b291148cd6f3))
+
 ### 2.1.0 (2018-08-19)
 
 ##### Documentation Changes
