@@ -32,9 +32,11 @@ jobs:
           paths:
             - node_modules
           key: v1-dependencies-{{ checksum "package.json" }}
-        
+
+      - run:
+          name: run lint-staged
+          command: yarn lint-staged
+
       - run:
           name: run commitlint
           command: yarn commitlint-circle
-
-
