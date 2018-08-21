@@ -22,7 +22,7 @@
     "lint:script": "eslint --fix **/*.js",
     "prettier:md": "prettier --write ./README.md",
     "ci:eslint": "eslint **/*.js",
-    "ci:stylelint": "eslint **/*.scss",
+    "ci:stylelint": "stylelint **/*.scss",
     "ci:commitlint": "commitlint-circle"
   },
   "husky": {
