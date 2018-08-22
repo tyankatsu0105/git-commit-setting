@@ -23,7 +23,7 @@
     "prettier:md": "prettier --write ./README.md",
     "ci:eslint": "eslint **/*.js",
     "ci:stylelint": "stylelint **/*.scss",
-    "ci:commitlint": "commitlint -e $GIT_PARAMS"
+    "ci:commitlint": "commitlint -e $GIT_COMMIT_DESC"
   },
   "husky": {
     "hooks": {
