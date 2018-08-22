@@ -36,6 +36,7 @@ jobs:
       - run:
           name: run commitlint
           command: echo "export GIT_COMMIT_DESC=\"$(git log --format=oneline -n 1 $CIRCLE_SHA1)\"" >> ~/.bashrc
+          command: echo $GIT_COMMIT_DESC
           
       - run:
           name: run eslint
