@@ -23,7 +23,7 @@
     "prettier:md": "prettier --write ./README.md",
     "ci:eslint": "eslint **/*.js",
     "ci:stylelint": "stylelint **/*.scss",
-    "ci:commitlint": "commitlint-circle"
+    "ci:commitlint": "commitlint -e"
   },
   "husky": {
     "hooks": {
