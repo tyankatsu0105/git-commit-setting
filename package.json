@@ -23,7 +23,7 @@
     "prettier:md": "prettier --write ./README.md",
     "ci:eslint": "eslint **/*.js",
     "ci:stylelint": "stylelint **/*.scss",
-    "ci:commitlint": "commitlint-travis"
+    "ci:commitlint": "commitlint-circle"
   },
   "husky": {
     "hooks": {
@@ -55,7 +55,6 @@
   "devDependencies": {
     "@commitlint/cli": "^7.0.0",
     "@commitlint/config-angular": "^7.0.1",
-    "@commitlint/travis-cli": "^7.0.0",
     "commitizen": "^2.10.1",
     "commitlint": "^7.0.0",
     "commitlint-circle": "^1.0.0",
