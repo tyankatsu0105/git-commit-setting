@@ -15,7 +15,7 @@ jobs:
       # - image: circleci/mongo:3.4.4
 
     environment:
-      FOO: git log --format=oneline -n 1
+      GIT_COMMIT_DESC: git log --format=oneline -n 1 $CIRCLE_SHA1
 
 
     working_directory: ~/repo
@@ -39,6 +39,6 @@ jobs:
             
       - run:
           name: test
-          command: echo $FOO
+          command: echo $GIT_COMMIT_DESC
 
 
