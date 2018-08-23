@@ -36,7 +36,7 @@ jobs:
       - run:
           name: test
           command: |
-            echo 'export COMMIT_MESSAGE=\"$(git log --format=oneline -n 1 $CIRCLE_SHA1)\"'' >> $BASH_ENV
+            echo 'export COMMIT_MESSAGE=\"$(git log --format=oneline -n 1 $CIRCLE_SHA1)\"' >> $BASH_ENV
             source /home/circleci/.bashrc
             echo $COMMIT_MESSAGE
 
