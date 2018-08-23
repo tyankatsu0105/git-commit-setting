@@ -40,7 +40,6 @@ jobs:
           name: test
           command: | 
             MESSAGE=`git log -1 --pretty=%B`
-            echo $MESSAGE
-            yarn commitlint --edit $MESSAGE
+            echo $MESSAGE | yarn commitlint
 
 
