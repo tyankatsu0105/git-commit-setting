@@ -33,10 +33,15 @@ jobs:
             - node_modules
           key: v1-dependencies-{{ checksum "package.json" }}
 
+        - run:
+            name: Setup Environment Variables
+            command: |
+                echo 'export PATH="$GOPATH/bin:$PATH"' >> $BASH_ENV
+                echo 'export GIT_SHA1="$CIRCLE_SHA1"' >> $BASH_ENV
+
       - run:
           name: run commitlint
-          command: echo "export GIT_COMMIT_DESC=\"$(git log --format=oneline -n 1 $CIRCLE_SHA1)\"" >> ~/.bashrc
-          command: echo $GIT_COMMIT_DESC
+          command: yarn ci:commitlint
           
       - run:
           name: run eslint
