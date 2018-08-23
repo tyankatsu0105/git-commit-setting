@@ -13,6 +13,8 @@ jobs:
       # CircleCI maintains a library of pre-built images
       # documented at https://circleci.com/docs/2.0/circleci-images/
       # - image: circleci/mongo:3.4.4
+      environment:
+        GIT_COMMIT_DESC: git log --format=%B -n 1 $CIRCLE_SHA1
 
     working_directory: ~/repo
 
@@ -35,13 +37,12 @@ jobs:
 
         - run:
             name: Setup Environment Variables
-            command: |
-                echo 'export PATH="$GOPATH/bin:$PATH"' >> $BASH_ENV
-                echo 'export GIT_SHA1="$CIRCLE_SHA1"' >> $BASH_ENV
+            command: 
+                echo $GIT_COMMIT_DESC
 
-      - run:
-          name: run commitlint
-          command: yarn ci:commitlint
+    #   - run:
+    #       name: run commitlint
+    #       command: yarn ci:commitlint
           
       - run:
           name: run eslint
