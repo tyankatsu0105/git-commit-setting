@@ -38,6 +38,6 @@ jobs:
           command: |
             echo 'export TAG_NAME=`git describe --tags`' >> $BASH_ENV
             source /home/circleci/.bashrc
-            echo $COMMIT_MESSAGE
+            echo $TAG_NAME
 
 
