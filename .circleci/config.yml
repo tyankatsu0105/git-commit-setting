@@ -26,7 +26,7 @@ jobs:
       - run:
           name: test
           command: | 
-            MESSAGE=`git log -1 --pretty=%B`
-            echo $MESSAGE | yarn commitlint
+            COMMIT_MESSAGE=`git log -1 --pretty=%B`
+            echo $COMMIT_MESSAGE | yarn commitlint
 
 
