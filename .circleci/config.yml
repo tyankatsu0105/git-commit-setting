@@ -38,6 +38,6 @@ jobs:
             
       - run:
           name: test
-          command: ci:commitlint
+          command: yarn ci:commitlint
 
 
