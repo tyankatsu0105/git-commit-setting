@@ -35,7 +35,7 @@ jobs:
             
       - run:
           name: test
-          command: echo $GIT_COMMIT_DESC
+          command: $CIRCLE_SHA1
           environment:
             GIT_COMMIT_DESC: git log --format=oneline -n 1 $CIRCLE_SHA1
 
