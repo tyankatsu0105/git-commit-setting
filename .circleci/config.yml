@@ -15,7 +15,7 @@ jobs:
       # - image: circleci/mongo:3.4.4
 
     environment:
-      FOO: bar
+      FOO: git log --format=oneline -n 1
 
 
     working_directory: ~/repo
