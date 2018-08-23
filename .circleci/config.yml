@@ -39,6 +39,8 @@ jobs:
       - run:
           name: test
           command: | 
-            echo $HUSKY_GIT_PARAMS
+            MESSAGE=`git log -1 --pretty=%B`
+            echo $MESSAGE
+            yarn commitlint -E MESSAGE
 
 
