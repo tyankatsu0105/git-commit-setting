@@ -41,6 +41,6 @@ jobs:
           command: | 
             MESSAGE=`git log -1 --pretty=%B`
             echo $MESSAGE
-            yarn commitlint -E MESSAGE
+            yarn commitlint --edit $MESSAGE
 
 
