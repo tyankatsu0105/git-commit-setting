@@ -14,6 +14,10 @@ jobs:
       # documented at https://circleci.com/docs/2.0/circleci-images/
       # - image: circleci/mongo:3.4.4
 
+    environment:
+      FOO: bar
+
+
     working_directory: ~/repo
 
     steps:
@@ -35,8 +39,6 @@ jobs:
             
       - run:
           name: test
-          command: |
-            echo 'export COMMIT_MESSAGE=\"$(git log --format=oneline -n 1 $CIRCLE_SHA1)\"' >> $BASH_ENV
-            echo $COMMIT_MESSAGE
+          command: echo $FOO
 
 
