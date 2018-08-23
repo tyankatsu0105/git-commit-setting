@@ -14,9 +14,6 @@ jobs:
       # documented at https://circleci.com/docs/2.0/circleci-images/
       # - image: circleci/mongo:3.4.4
 
-    environment:
-      GIT_COMMIT_DESC: git log --format=oneline -n 1 $CIRCLE_SHA1
-
 
     working_directory: ~/repo
 
@@ -39,6 +36,6 @@ jobs:
             
       - run:
           name: test
-          command: echo $GIT_COMMIT_DESC
+          command: git log -1 --oneline | cut -b 9-
 
 
