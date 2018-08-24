@@ -1,3 +1,59 @@
+## 3.0.0 (2018-08-24)
+
+##### Chores
+
+* **asdf.tee:**
+  *  :tada: sakdjfiasjeif sdfasdfsadfklsdf asdfjefasefa ([48d308cd](https://github.com/tyankatsu0105/git-commit-setting/commit/48d308cd3448c0b6d7abd8144897176f89b2a190))
+  *  :tada: sakdjfiasjeif iaaaaa asdfjefasefa ([ac5cc53e](https://github.com/tyankatsu0105/git-commit-setting/commit/ac5cc53e57b7dbede63a0d0553ee4319ddc8db9f))
+  *  :tada: sakdjfiasjeif ([32b6d570](https://github.com/tyankatsu0105/git-commit-setting/commit/32b6d570763ee348f446a10788f2fdb550b880cc))
+  *  :tada: sakdjfiasjeif ([7e7cb6a4](https://github.com/tyankatsu0105/git-commit-setting/commit/7e7cb6a474d7429ac3ca3fb3738b755b8459cd82))
+  *  :tada: sakdjfiasjeif ([31e0a643](https://github.com/tyankatsu0105/git-commit-setting/commit/31e0a643ffb9f0bedd71561b79b126cc8eece143))
+  *  :tada: sakdjfiasjeif ([1b7871d0](https://github.com/tyankatsu0105/git-commit-setting/commit/1b7871d0feca26e3ff2c1bcd62f824b215f937a4))
+  *  :tada: sakdjfiasjeif ([fe26be23](https://github.com/tyankatsu0105/git-commit-setting/commit/fe26be233abe500ff7cbd52d58984e79262435f1))
+  *  :tada: sakdjfiasjeif ([3e939340](https://github.com/tyankatsu0105/git-commit-setting/commit/3e939340892122f5b98b30e60ef4b5789caa139b))
+  *  :tada: sakdjfiasjeif ([c24e8235](https://github.com/tyankatsu0105/git-commit-setting/commit/c24e8235f074fbaf3d867c6145e845822ebfb5f8))
+  *  :tada: sakdjfiasjeif ([d0e2a624](https://github.com/tyankatsu0105/git-commit-setting/commit/d0e2a62410173b4d19100174b35d71a47faeeb68))
+  *  :tada: sakdjfiasjeif ([05c765f7](https://github.com/tyankatsu0105/git-commit-setting/commit/05c765f7d9868785ec5c7b9411457741c1f7701d))
+* **asdf:**  tada: aksjdfkjsdf ([5d0482c3](https://github.com/tyankatsu0105/git-commit-setting/commit/5d0482c3052116f8055fc9b66a8f936b0b6a3170))
+* **asdfasd:**  :tada: asdkfjklsadf asd;fkosaefkmasef asdlkfjlaskfoes ([725ab717](https://github.com/tyankatsu0105/git-commit-setting/commit/725ab717b3936fce2ad535f061a46de9e3513727))
+* **asdfksdjf:**  :fire: djfkasjdfklasd ([6f41048b](https://github.com/tyankatsu0105/git-commit-setting/commit/6f41048b42dc197e6ce3ef940c44b5e2bb8c7853))
+
+##### Continuous Integration
+
+*  :bug: testtest ([5c1fe900](https://github.com/tyankatsu0105/git-commit-setting/commit/5c1fe9007e6d4dc6deb8b12b2e6d2d7e446c4843))
+* **text.txt:**  :+1: テスト ([a45aefc5](https://github.com/tyankatsu0105/git-commit-setting/commit/a45aefc5ca16d0701b2b823971e79e702652a9e5))
+
+##### New Features
+
+*  :tada: commitlintをci上でも動くように変更、changelog-generate時のコミットメッセージを変更 ([d4b8276c](https://github.com/tyankatsu0105/git-commit-setting/commit/d4b8276cf8409a3c2cfa07daa9bbde2e6d8f0573))
+*  :tada: circle ci初期コミット ([a118d185](https://github.com/tyankatsu0105/git-commit-setting/commit/a118d185601dd1925bf2b36fb7e41fb1924431bf))
+
+##### Bug Fixes
+
+* **sdfjasdfsdf:**
+  *  :tada: テストを編集した ([3aa572e4](https://github.com/tyankatsu0105/git-commit-setting/commit/3aa572e40f6720a94affc4ba80568b05e956d38e))
+  *  :tada: テストを編集した ([f2a9df3b](https://github.com/tyankatsu0105/git-commit-setting/commit/f2a9df3bea9b00d7a8eb225e1c6f65a2310d6bc0))
+* **hoge.txt:**  kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk ([ba9356af](https://github.com/tyankatsu0105/git-commit-setting/commit/ba9356af73588d95131d30a3c290a4f5403cebce))
+
+##### Other Changes
+
+* **asdf.tee:**
+  *  :tada: sakdjfiasjeif aaaaa asdfjefasefa ([2bbd3013](https://github.com/tyankatsu0105/git-commit-setting/commit/2bbd3013c3b2f5d8016ce4283baff20a502606b4))
+  *  :tada: sakdjfiasjeif ([3f0e04c6](https://github.com/tyankatsu0105/git-commit-setting/commit/3f0e04c6ace6054eed49f15a810fc45e6bb2e4b3))
+* **jijiijiji:**  :tada: asdfkj ([84de712c](https://github.com/tyankatsu0105/git-commit-setting/commit/84de712c9e338608233bde296b637eab88759c16))
+* **asfsdf.asdf:**  asdfsdfsdfnaksdjfnsdfnjjjjjjjjjjjnsadfaksjdfasfsef asdfhaseufase sdfsdfs ([e6095dc5](https://github.com/tyankatsu0105/git-commit-setting/commit/e6095dc55a76192fdba1a31bd7804df7d3e7b7db))
+* **asdfas:**  asdfas ([c8f1bc7f](https://github.com/tyankatsu0105/git-commit-setting/commit/c8f1bc7fe60187eb85f16c4d5858e3cfab264f26))
+
+##### Performance Improvements
+
+* **test.js:**  :+1: lint-stagedがcircleciで動くかテスト ([a27dffd0](https://github.com/tyankatsu0105/git-commit-setting/commit/a27dffd0403dabd830759bb94a62f7f90a0c0359))
+
+##### Refactors
+
+*  :tada: lint-stagedをcircleciで走らせる ([a860613c](https://github.com/tyankatsu0105/git-commit-setting/commit/a860613c4678479873339fa5cc1e93c5bb3dccbf))
+*  :+1: commitlintをcircleciで走らせる ([2a47efbc](https://github.com/tyankatsu0105/git-commit-setting/commit/2a47efbc6a0efd0d3cbcac124e644e9438fb57a8))
+* **circleci:**  :pill: runの内容変更 ([c339d3c0](https://github.com/tyankatsu0105/git-commit-setting/commit/c339d3c00690f91ee3b7862fd4fd774e3957efa3))
+
 ### 2.2.0 (2018-08-21)
 
 ##### New Features
