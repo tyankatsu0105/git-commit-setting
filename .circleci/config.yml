@@ -27,6 +27,6 @@ jobs:
           name: test
           command: | 
             COMMIT_MESSAGE=`git log --format=%B -n 1 $CIRCLE_SHA1`
-            echo "$COMMIT_MESSAGE" | yarn commitlint
+            yarn commitlint -E "$COMMIT_MESSAGE"
 
 
