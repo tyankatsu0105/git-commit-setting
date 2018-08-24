@@ -24,9 +24,18 @@ jobs:
           key: v1-dependencies-{{ checksum "package.json" }}
             
       - run:
-          name: test
+          name: run commitlint
           command: | 
             git log --format=%B -n 1 $CIRCLE_SHA1 > $HOME/message.txt
             yarn commitlint -e $HOME/message.txt
+
+      - run:
+          name: run eslint
+          command: yarn ci:eslint
+          
+      - run:
+          name: run stylelint
+          command: yarn ci:stylelint
+
 
 
