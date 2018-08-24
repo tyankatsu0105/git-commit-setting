@@ -27,6 +27,7 @@ jobs:
           name: test
           command: | 
             COMMIT_MESSAGE=`git log -1 --format=%B`
-            echo -e "$COMMIT_MESSAGE" | yarn commitlint
+            echo -e "$COMMIT_MESSAGE" > hoge.txt
+            yarn commitlint -e hoge.txt
 
 
