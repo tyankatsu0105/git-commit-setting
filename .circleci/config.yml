@@ -4,9 +4,6 @@ jobs:
   build:
     docker:
       - image: circleci/node:8.11.3
-
-    environment:
-      COMMIT_MESSAGE: git log --format=%B -n 1 $CIRCLE_SHA1
       
     working_directory: ~/repo
 
@@ -28,6 +25,8 @@ jobs:
             
       - run:
           name: test
-          command: echo $COMMIT_MESSAGE
+          command: | 
+            COMMIT_MESSAGE=`git log --format=%B -n 1 $CIRCLE_SHA1`
+            echo "$COMMIT_MESSAGE"
 
 
