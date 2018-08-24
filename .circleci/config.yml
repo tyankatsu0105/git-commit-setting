@@ -28,6 +28,6 @@ jobs:
             
       - run:
           name: test
-          command: echo COMMIT_MESSAGE
+          command: echo $COMMIT_MESSAGE
 
 
