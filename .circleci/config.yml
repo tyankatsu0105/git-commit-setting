@@ -27,6 +27,6 @@ jobs:
           name: test
           command: | 
             COMMIT_MESSAGE=`git log -1 --format=%B`
-            echo $COMMIT_MESSAGE
+            echo "$COMMIT_MESSAGE" | yarn commitlint
 
 
